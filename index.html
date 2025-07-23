@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "-knN-ezHRJmtucCU_",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="profile">
+            <p><b>SREEHARI T</b></p>
+            <div class="icons">
+                <a href="https://www.instagram.com/joybwoii"><i class="bi bi-instagram"></i></a></i>
+                <a href="https://www.linkedin.com/in/sreehariit/"><i class="bi bi-linkedin"></i></a></i>
+                <i class="bi bi-whatsapp"></i>
+                <a href="https://github.com/joybwoii"><i class="bi bi-github"></i></a></i>
+                <i class="bi bi-twitter-x"></i>
+            </div>
+            <img src="images/profile.png" alt="Profile Picture">
+        </div>
+        <div class="details"><br>
+            <p><b>I am Sreehari, full-stack developer from India.</b></p><br>
+            <!-- <p style="font-size: 30px; color:rgb(255, 255, 255)"><b><u>About</u></b></p> -->
+            <p style="font-size: 15px; color: rgb(255, 255, 255);">"I specialize in turning design visions into fast, responsive, and accessible user interfaces. My foundation in computer applications fuels my ability to build  scalable, well-structured code. I'm comfortable working with HTML, CSS, JavaScript, and modern frameworks like React, and I'm constantly experimenting to stay ahead of UI/UX trends.."</p><br><br>
+            <div class="buttons">
+                <div class="button2" style="font-size: 30px;"><a href="#clickservice">Services</a></div>
+                <div class="button3" style="font-size: 30px;"><a href="#clickportfolio">Portfolio</a></div>
+                <div class="button4" style="font-size: 30px;"><a href="#clickresume">Resume</a></div>
+                <div class="button5" style="font-size: 30px;"><a href="#clickcontact">Contact</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="maindiv2" id="clickservice">
+        <div class="about">
+            <div class="servicetext">
+                <p><b><u>Services :</u></b></p>
+            </div>
+            <div class="servicesgrid">
+                <div class="service1">
+                    <p class="servicename"><b>Front-end development</b></p>
+                </div>
+                <div class="service2">
+                    <p class="servicename"><b>Back-end development</b></p>
+                </div>
+                <div class="service3">
+                    <p class="servicename"><b>Full-stack development</b></p>
+                </div>
+                <div class="service4">
+                    <p class="servicename"><b>UI & UX designing</b></p>
+                </div>
+            </div><br>
+            <div class="servicestext">
+                <p>Completing the above services with the best quality.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio" id="clickportfolio">
+        <div class="portfoliotext">
+            <p><b><u>My Projects :</u></b></p>
+        </div>
+        <div class="portfoliogrid">
+            <div class="project1">
+                <div class="prjimg1"></div>
+                <button class="viewproject">View Project</button>
+            </div>
+            <div class="project2">
+                <div class="prjimg2"></div>
+                <button class="viewproject">View Project</button>
+            </div>
+            <div class="project3">
+                <div class="prjimg3"></div>
+                <button class="viewproject">View Project</button>
+            </div>
+        </div>
+        <div class="portfoliotext1">
+            <p>These are the best works done by me.</p>
+        </div>
+    </div>
+
+    <div class="maindiv3" id=""><br>
+        <div class="skills">
+            <p style="font-size: 30px; color:rgb(255, 255, 255)"><b><u>Skills :</u></b></p><br><br>
+            <p style="font-size: 20px; color: rgb(255, 255, 255);">
+                I am a full-stack developer with expertise in both frontend and backend technologies. I have knowledge of web development, web designing, including JavaScript, and I am expanding my skills further.
+            </p><br><br>
+            <div class="skillsicon">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-node"></i>
+                <i class="fa-brands fa-figma"></i>
+            </div><br><br>
+            <div class="gify"></div>
+        </div>
+    </div>
+
+    <div class="maindiv4" id="clickresume">
+        <div class="resume">
+            <p style="font-size: 30px; color:rgb(255, 255, 255)"><b><u>Resume :</u></b></p><br>
+            <p style="font-size: 20px; color: rgb(255, 255, 255);">
+                Explore my experience, education, and achievements in web development. Download my resume.
+            </p>
+        </div>
+        <div>
+            <button class="download"><b>Download</b></button>
+        </div>
+    </div>
+
+    <div class="maindiv5" id="clickcontact"><br>
+        <div class="contact">
+            <p><b>Let's connect and explore how we can work together<br> to bring your vision to life.</b></p>
+        </div>
+        <br><br>
+        <div class="contactform">
+            <label for="name">Name :</label><br>
+            <input type="text" id="name"><br>
+            <label for="email">Email :</label><br>
+            <input type="email" id="email"><br>
+            <label for="phone">Phone :</label><br>
+            <input type="tel" id="phone"><br>
+            <label for="message">Message :</label><br>
+            <textarea id="message" rows="8" placeholder="Type your message"></textarea><br>
+            <input type="submit" id="submit" style="font-size: medium;" onclick="sendEmail()">
+        </div>
+        <br><br>
+        <div class="contactdetails">
+            <div>
+                <p><b><u>Call me</u></b></p><br>
+                <p>+91 9656017532</p>
+            </div>
+            <div>
+                <p><b><u>Mail me</u></b></p><br>
+                <p>sreeharit86@gmail.com</p>
+            </div>
+            <div>
+                <p><b><u>Meet me</u></b></p><br>
+                <p>Sulthan Bathery</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
