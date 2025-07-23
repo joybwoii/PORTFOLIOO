@@ -237,7 +237,7 @@ body {
 .gify {
     width: 200px;
     height: 200px;
-    background-image: url('video/gify.gif');
+    background-image: url('gify.gif');
     background-size: cover;
     margin: 0 auto;
 }
